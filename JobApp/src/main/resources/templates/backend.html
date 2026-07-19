@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background:#f2f5f9;
+            font-family:Arial,Helvetica,sans-serif;
+        }
+
+        .container{
+            width:700px;
+            margin:30px auto;
+            background:#ffffff;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 2px 10px rgba(0,0,0,.15);
+        }
+
+        .header{
+            background:#198754;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        .content{
+            padding:35px;
+        }
+
+        .content p{
+            line-height:1.8;
+            color:#333;
+            font-size:15px;
+        }
+
+        .skills{
+            background:#f8f9fa;
+            border-left:5px solid #198754;
+            padding:15px;
+            margin:20px 0;
+        }
+
+        .button{
+            display:inline-block;
+            background:#198754;
+            color:white;
+            text-decoration:none;
+            padding:12px 22px;
+            border-radius:5px;
+            margin-top:15px;
+        }
+
+        .footer{
+            background:#f8f9fa;
+            text-align:center;
+            padding:20px;
+            font-size:14px;
+        }
+
+        .footer a{
+            color:#198754;
+            text-decoration:none;
+            margin:0 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h2>Application for {{position}}</h2>
+    </div>
+
+    <div class="content">
+
+        <p>Dear <b>{{firstName}}</b>,</p>
+
+        <p>
+            I hope you are doing well.
+        </p>
+
+        <p>
+            I am excited to apply for the <b>{{position}}</b> role at <b>{{company}}</b>.
+            I have hands-on experience in Java Backend Development using Spring Boot and enjoy building scalable, RESTful applications.
+        </p>
+
+        <div class="skills">
+
+            <b>Backend Skills</b>
+
+            <ul>
+                <li>Java 17/21</li>
+                <li>Spring Boot</li>
+                <li>Spring MVC</li>
+                <li>Hibernate & JPA</li>
+                <li>REST APIs</li>
+                <li>MySQL</li>
+                <li>Maven</li>
+                <li>Git & GitHub</li>
+            </ul>
+
+        </div>
+
+        <p>
+
+            My recent projects include:
+
+        </p>
+
+        <ul>
+            <li>Job Application Automation System</li>
+            <li>E-Commerce Backend using Spring Boot</li>
+            <li>REST API Development</li>
+        </ul>
+
+        <p>
+            I have attached my resume for your review. I would appreciate the opportunity to discuss how I can contribute to your backend engineering team.
+        </p>
+
+        <a class="button"
+           href="www.linkedin.com/in/diwakar-k-077194204">
+            View LinkedIn Profile
+        </a>
+
+    </div>
+
+    <div class="footer">
+
+        <b>Diwakar Kumar</b>
+
+        <br><br>
+
+        📧 diwakarkumar9507@gmail.com
+
+        <br>
+
+        📞 +91-9507991666
+
+        <br><br>
+
+        <a href="www.linkedin.com/in/diwakar-k-077194204">LinkedIn</a>
+
+        |
+
+        <a href="github.com/diwakarshahi9507">GitHub</a>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
